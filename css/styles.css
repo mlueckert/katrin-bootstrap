@@ -42,7 +42,9 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 29, 128, 159;
+  --bs-primary: #1D809F;
   --bs-secondary-rgb: 236, 184, 7;
+  --bs-secondary: #ecb807;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 236, 184, 7;
@@ -11465,7 +11467,7 @@ footer.footer .social-link:hover {
 .map iframe {
   pointer-events: none;
   height: 100%;
-  width: 100%;
+  width: 50%;
   border: 0;
 }
 
