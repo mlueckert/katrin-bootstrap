@@ -38,7 +38,13 @@
         </ul>
     </nav>
     <!-- Header-->
-    <header class="masthead d-flex align-items-center">
+    <header class="d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <img src="assets/img/logo.svg" class="w-50" alt="Logo Katrin Lückert - Coaching & Beratung">
+            <!-- <a class="btn btn-primary btn-lg mb-5" href="#about">Über mich</a> -->
+        </div>
+    </header>
+    <!-- <header class="masthead d-flex align-items-center">
         <div class="container px-4 px-lg-5 text-center">
             <h1 class="mb-1 float-sm title-font">Katrin Lückert</h1>
             <img src="assets/img/bg-katrin.png" width="300px" class="img-fluid rounded-circle" class="img-fluid"
@@ -46,16 +52,19 @@
             <h3 class="mb-5"><em>Beratung & Coaching</em></h3>
             <a class="btn btn-primary btn-lg" href="#about">Über mich</a>
         </div>
-    </header>
+    </header> -->
     <!-- About-->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section bg-primary text-black" id="about">
         <div class="container px-4 px-lg-5 text-center">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-10">
+                    <img src="assets/img/bg-katrin.png" class="img-fluid rounded-circle mb-5 w-25" class="img-fluid"
+                    alt="...">
                     <h2>Über Mich</h2>
                     <blockquote class="blockquote">
                         <p>MERAKI</p>
-                        <footer class="blockquote-footer">Dies ist ein griechisches Wort, das bedeutet: etwas mit
+                        <footer class="blockquote-footer text-white">Dies ist ein griechisches Wort, das bedeutet: etwas
+                            mit
                             Herzblut und Liebe zu
                             tun und ein Stück von sich selbst hineinzugeben.</footer>
                     </blockquote>
@@ -91,42 +100,42 @@
         </div>
     </section>
     <!-- LernCoaching-->
-    <section class="content-section bg-primary text-secondary text-center" id="lerncoaching">
-        <div class="container px-4 px-lg-5">
+    <section class="content-section bg-tertiary text-light text-center" id="lerncoaching">
+        <div class="container">
             <div class="content-section-heading">
-                <h2 class="mb-5">Lerncoaching</h2>
+                <h2>Lerncoaching Angebot</h2>
             </div>
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                    <h4><strong>Responsive</strong></h4>
-                    <p class="text-faded mb-0">Looks great on any screen size!</p>
+            <div class="content-section">
+                <h3>Bist du SchülerIn, Lehrling, Studierende/r oder Erwachsene/r und dich plagen folgende Situationen:
+                </h3>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-lg-6 text-start">
+                        <ul class="list-group">
+                            <li class="list-group-item mb-2">Fällt es dir schwer, dich zu konzentrieren?</li>
+                            <li class="list-group-item mb-2">Hast du schlaflose Nächte vor Prüfungen/Vorträgen?</li>
+                            <li class="list-group-item mb-2">Möchtest du dein Lernen besser organisieren, so dass der
+                                Lernstoff nicht mehr als
+                                unüberwindbarer Berg vor dir liegt?</li>
+                            <li class="list-group-item mb-2">Schiebst du das Lernen immer wieder vor dir her?</li>
+                            <li class="list-group-item mb-2">Hast du Mühe dich zu motivieren?</li>
+                        </ul>
+                    </div>
+                    <div class="col"></div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                    <h4><strong>Redesigned</strong></h4>
-                    <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                    <h4><strong>Favorited</strong></h4>
-                    <p class="text-faded mb-0">
-                        Millions of users
-                        <i class="fas fa-heart"></i>
-                        Start Bootstrap!
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                    <h4><strong>Question</strong></h4>
-                    <p class="text-faded mb-0">I mustache you a question...</p>
-                </div>
+                <p>
+                    Bei diesen und ähnlichen Themen unterstütze ich dich sehr gern und vermittle
+                    dir geeignete Lernstrategien, mache mit dir deinen eigenen Lernplan, suche
+                    gemeinsam mit dir nach deinen Motivationsmöglichkeiten, etc.
+                </p>
+                <p>Ich freue mich darauf dich kennen zu lernen und mit dir an deinen Lernthemen
+                    zu arbeiten!</p>
             </div>
         </div>
     </section>
     <!-- Psychosoziale Beratung-->
-    <section class="content-section bg-secondary text-center" id="beratung">
-        <div class="container px-4 px-lg-5">
+    <section class="content-section bg-light text-center" id="beratung">
+        <div class="container">
             <div class="content-section-heading">
                 <h2 class="mb-5">Psychosoziale Beratung</h2>
             </div>
@@ -138,43 +147,101 @@
                 dich möglichst wertfrei mit all dem, was in dir vorgeht.
             </p>
             <p>Ich arbeite in Einzelcoachings mit verschiedenen Methoden, die ich dem
-                jeweiligen Kunden anpasse. </p>
+                jeweiligen Kunden anpasse.</p>
             <h3>Werkzeuge, die mir zur Verfügung stehen:</h3>
-            <div class="row">
+            <div class="row row-cols-lg-3 row-cols-sm-1">
                 <div class="col">
                     <div class="card bg-primary text-white m-1">
                         <div class="card-body">
-                            <h4 class="card-title">Neurolinguistisches Programmieren</h4>
+                            <p class="card-title">Neurolinguistisches Programmieren (NLP)</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card bg-primary text-white m-1">
                         <div class="card-body">
-                            <h4 class="card-title">personzentrierte Gesprächsführung</h4>
+                            <p class="card-title">Focusing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">personzentrierte Gesprächsführung</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <h3>Mögliche Themen, bei denen ich dich gerne unterstütze:</h3>
-            <div class="container">
-                <div class="row-cols-auto">
-                    <ul>
-                        <li>Ziele setzen</li>
-                        <li>Familienthemen</li>
-                        <li>Mama und Berufsfrau sein</li>
-                        <li>Entscheidungen treffen</li>
-                        <li>Ressourcen stärken</li>
-                        <li>Krisenbewältigung</li>
-                        <li>Herausforderungen angehen</li>
-                        <li>Bewusst Zeit für dich nehmen</li>
-                        <li>Für dich da sein und dir zuhören</li>
-                    </ul>
+            
+        </div>
+        <div class="container">
+            <div class="row row-cols-lg-3 row-cols-sm-1">
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Ziele setzen</p>
+                        </div>
+                    </div>
                 </div>
-
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Familienthemen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Mama und Berufsfrau sein</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Entscheidungen treffen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Ressourcen stärken</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Krisenbewältigung</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Herausforderungen angehen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Bewusst Zeit für dich nehmen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-primary text-white m-1">
+                        <div class="card-body">
+                            <p class="card-title">Für dich da sein und dir zuhören</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Selbstverständlich beachte ich die Schweigepflicht.</p>
         </div>
     </section>
     <!-- Preis-->
@@ -186,11 +253,18 @@
             <div class="mb-3">Da ich mich aktuell noch in Ausbildung befinde, biete ich reduzierte
                 Stundentarife von 80 CHF an.
             </div>
-            <div>Meine Leistungen sind nicht Krankenkassen anerkannt.</div>
+            <p>
+                Grundsätzlich kann jeder Beratungstermin der letzte sein, ich rechne etwa mit
+                2 - 5 Sitzungen, je nach Thema. Du bestimmst wie viel Zeit für dich passt.
+            </p>
+            <div>Meine Leistungen sind nicht Krankenkassen anerkannt. </div>
+            <p>Selbstverständlich
+                achte ich die Schweigepflicht.</p>
         </div>
+        
     </section>
     <!-- Map-->
-    <section class="content-section bg-secondary" id="kontakt">
+    <section class="content-section bg-tertiary text-white" id="kontakt">
         <address class="text-center">
             <div class="content-section-heading">
                 <h2 class="mb-5">Kontakt</h2>
@@ -200,16 +274,18 @@
             <p><b>Katrin Lückert - Beratung & Coaching</b><br>
                 Feldeggstrasse 3<br>
                 9113 Degersheim<br>
-                ☎️ <a href="tel:+41788226110">+41788226110</a><br>
-                💬 <a href="https://wa.me/0041788226110">WhatsApp</a> oder Signal oder <a
-                    href="sms:+41788226110">SMS</a><br>
-                📧 <a href="mailto:katrin@lueckert.ch">katrin@lueckert.ch</a>
+                ☎️ <a href="tel:+41788226110" class="link-light">+41788226110</a><br>
+                💬 <a href="https://wa.me/0041788226110" class="link-light">WhatsApp</a> oder Signal oder <a
+                    href="sms:+41788226110" class="link-light">SMS</a><br>
+                📧 <a href="mailto:katrin@lueckert.ch" class="link-light">katrin@lueckert.ch</a>
             </p>
         </address>
         <div class="row-cols-xxl-2 text-center">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DhClWxLWRZXycHeCXiOBhGSUnzH5ASXo&ehbc=2E312F" style="border:0;" allowfullscreen="" loading="lazy" height="300"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DhClWxLWRZXycHeCXiOBhGSUnzH5ASXo&ehbc=2E312F"
+                style="border:0;" allowfullscreen="" loading="lazy" height="300"></iframe>
             <br />
-            <small><a href="https://www.google.com/maps/d/u/0/edit?mid=1DhClWxLWRZXycHeCXiOBhGSUnzH5ASXo&usp=sharing"></a></small>
+            <small><a
+                    href="https://www.google.com/maps/d/u/0/edit?mid=1DhClWxLWRZXycHeCXiOBhGSUnzH5ASXo&usp=sharing"></a></small>
         </div>
     </section>
     <!-- Footer-->
@@ -228,49 +304,51 @@
                                         9113 Degersheim<br>
                                         katrin@lueckert.ch</p>
                                 </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col"> <a class="text-muted small mb-0" role="button" data-bs-toggle="collapse"
-                            href="#impressum" aria-expanded="false" aria-controls="impressum">
-                            Impressum
-                        </a>
-                    </div>
-                </div>
-                <div class="container h-100">
-                    <div class="row align-items-center h-100">
-                        <div class="col-lg-6 mx-auto">
-                            <div class="card collapse text-muted h-100 justify-content-center" id="datenschutz">
-                                <div>
-                                    <h2 class="card-title">Datenschutz</h2>
-                                    <p class="card-text"> Diese Website verwendet Cookies.<br> Cookies sind kleine Textdateien, die
-                                        beim Besuch
-                                        dieser Website
-                                        in
-                                        Ihrem Computer dauerhaft oder temporär gespeichert werden.<br>Zweck der Cookies ist
-                                        insbesondere die
-                                        Analyse der Nutzung dieser Website zur statistischen Auswertung sowie für
-                                        kontinuierliche
-                                        Verbesserungen.<br>
-            
-                                        In Ihrem Browser können Sie Cookies in den Einstellungen jederzeit ganz oder teilweise
-                                        deaktivieren.<br>
-                                        Bei deaktivierten Cookies stehen Ihnen allenfalls nicht mehr alle Funktionen dieser
-                                        Website zur
-                                        Verfügung.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row text-center"><a class="text-muted small mb-0" role="button" data-bs-toggle="collapse"
-                        href="#datenschutz" aria-expanded="false" aria-controls="datenschutz">
-                        Datenschutz
-                    </a></div>
             </div>
+            <div class="row text-center">
+                <div class="col"> <a class="text-muted small mb-0" role="button" data-bs-toggle="collapse"
+                        href="#impressum" aria-expanded="false" aria-controls="impressum">
+                        Impressum
+                    </a>
+                </div>
+            </div>
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="card collapse text-muted h-100 justify-content-center" id="datenschutz">
+                            <div>
+                                <h2 class="card-title">Datenschutz</h2>
+                                <p class="card-text"> Diese Website verwendet Cookies.<br> Cookies sind kleine
+                                    Textdateien, die
+                                    beim Besuch
+                                    dieser Website
+                                    in
+                                    Ihrem Computer dauerhaft oder temporär gespeichert werden.<br>Zweck der Cookies ist
+                                    insbesondere die
+                                    Analyse der Nutzung dieser Website zur statistischen Auswertung sowie für
+                                    kontinuierliche
+                                    Verbesserungen.<br>
+
+                                    In Ihrem Browser können Sie Cookies in den Einstellungen jederzeit ganz oder
+                                    teilweise
+                                    deaktivieren.<br>
+                                    Bei deaktivierten Cookies stehen Ihnen allenfalls nicht mehr alle Funktionen dieser
+                                    Website zur
+                                    Verfügung.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center"><a class="text-muted small mb-0" role="button" data-bs-toggle="collapse"
+                    href="#datenschutz" aria-expanded="false" aria-controls="datenschutz">
+                    Datenschutz
+                </a></div>
+        </div>
 
 
         </div>
