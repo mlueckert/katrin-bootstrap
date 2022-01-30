@@ -11589,7 +11589,7 @@ footer.footer .social-link:hover {
   overflow:hidden;
   padding-bottom:40%;
   position:relative;
-  height:0;
+  height:300;
 }
 
 .map-responsive iframe{
