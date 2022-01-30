@@ -11584,3 +11584,20 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
