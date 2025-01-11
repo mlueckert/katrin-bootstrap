@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/bootstrap/
+Disallow: /assets/img/
+Disallow: /css/
+Disallow: /js/
+Allow: /
+Sitemap: https://katrin.lueckert.ch/sitemap.xml

@@ -14,3 +14,125 @@
     font-weight: 400;
     src: url('../fonts/source-sans-3-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+  .zitat {
+    position: relative; /*  Parent-Element */
+    padding-left: 1.5em; /*  Platz für das Zitatzeichen */
+ }
+ 
+ .zitat::before {
+   content: "\201C";
+   font-size: 3em;
+   position: absolute; /*  Positionierung relativ zum Parent */
+   left: 0;
+   top: 1;
+   line-height: 1;
+   color: white;
+ }
+
+.zitat::after {
+  content: "\201D";
+  font-size: 3em;
+  position: absolute; /*  Position relative to the parent */
+  right: 0;
+  bottom: 1;
+  line-height: 1;
+  color: white;
+}
+
+.responsive-br::after {
+  content: "";
+  display: none; /* Standardmäßig keine neue Zeile */
+}
+
+@media (max-width: 768px) {
+  .responsive-br {
+      display: block;
+ }
+ 
+.responsive-br::after {
+   content: "";
+   display: block;
+   margin-bottom: 0.25rem;
+   font-size: 0.8em; /* Schriftgröße der neuen Zeile kleiner machen */
+   display: block; /* Füge die neue Zeile hinzu */
+}
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+    list-style-position: outside;
+     padding-left: 1.5rem;
+}
+
+.timeline-list li {
+  display: flex;
+  align-items: flex-start;
+   position: relative; /* Für die Aufzählungszeichen-Positionierung */
+     padding-left: 0;
+}
+
+.timeline-list li::before {
+    content: "•";
+    position: absolute;
+    left: -1.5rem;
+    top: -0.1rem; /* Feinjustierung der vertikalen Position */
+    font-size: 1.5em; /* Größeres Aufzählungszeichen */
+    line-height: 1; /* Um den Abstand zu reduzieren */
+}
+
+.timeline-list li strong {
+  flex-shrink: 0;
+  width: 100px;
+  white-space: nowrap;
+    margin-right: 10px;
+}
+
+ .timeline-text {
+        display: inline-block;
+    }
+
+    .logos-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+       padding-top: 1rem;
+  }
+
+  .logo-item {
+      flex: 0 0 auto;
+      margin: 10px;
+      max-width: 300px;
+  }
+
+ .logo-image {
+     max-width: 100%;
+     height: auto;
+      display: block;
+      margin: 0 auto;
+      /* Neue Eigenschaften für begrenzte Größe */
+      max-width: 100%; /* Sorgt dafür, dass das Bild nie breiter als sein Container wird */
+     max-height: none; /* Entfernt die Begrenzung der Höhe, damit das Seitenverhältnis erhalten bleibt*/
+
+  }
+  .sgfb-logo{
+         max-width: 150px;
+  }
+
+  @media (max-width: 768px) {
+      .logos-container{
+          flex-direction: column;
+          align-items: center;
+          padding-top: 1rem;
+      }
+       .logo-item{
+        max-width: 100%;
+          margin-left: 0;
+         margin-right: 0;
+       }
+        .sgfb-logo{
+           max-width: 150px;
+       }
+  }
